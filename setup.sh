@@ -44,4 +44,5 @@ git remote get-url origin|grep -q $remote_repo || { echo "Dir \"$path\" is not e
 x git pull origin master && git submodule update --init --recursive
 echo "$me: Downloaded."
 echo "$me: Running \"install.sh\"."
+x chmod +x ./install.sh # How does this work without this on main repo?
 x ./install.sh || { echo "$me: Error occured when running \"install.sh\"."; exit 1 ; }
