@@ -10,6 +10,16 @@ bash <(curl -s "https://raw.githubusercontent.com/Krayon0/dotfiles/refs/heads/ma
 ```
 
 <div align="center">
+    <h2>• Steam Setup •</h2>
+</div>
+
+- `sudo nano /etc/pacman.conf`
+    - Remove comments on [multilib] & the Include below it
+
+- `yay steam`
+- Settings > Compatability > Enable for all other titles
+
+<div align="center">
     <h2>• Credits •</h2>
 </div>
 
