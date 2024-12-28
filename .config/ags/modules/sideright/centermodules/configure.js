@@ -102,9 +102,9 @@ export default (props) => {
                 ConfigSection({
                     name: 'Developer', children: [
                         HyprlandToggle({ icon: 'speed', name: 'Show FPS', desc: "[Hyprland]\nShow FPS overlay on top-left corner", option: "debug:overlay" }),
-                        HyprlandToggle({ icon: 'sort', name: 'Log to stdout', desc: "[Hyprland]\nPrint LOG, ERR, WARN, etc. messages to the console", option: "debug:enable_stdout_logs" }),
-                        HyprlandToggle({ icon: 'motion_sensor_active', name: 'Damage tracking', desc: "[Hyprland]\nEnable damage tracking\nGenerally, leave it on.\nTurn off only when a shader doesn't work", option: "debug:damage_tracking", enableValue: 2 }),
-                        HyprlandToggle({ icon: 'destruction', name: 'Damage blink', desc: "[Hyprland] [Epilepsy warning!]\nShow screen damage flashes", option: "debug:damage_blink" }),
+                        // HyprlandToggle({ icon: 'sort', name: 'Log to stdout', desc: "[Hyprland]\nPrint LOG, ERR, WARN, etc. messages to the console", option: "debug:enable_stdout_logs" }),
+                        // HyprlandToggle({ icon: 'motion_sensor_active', name: 'Damage tracking', desc: "[Hyprland]\nEnable damage tracking\nGenerally, leave it on.\nTurn off only when a shader doesn't work", option: "debug:damage_tracking", enableValue: 2 }),
+                        // HyprlandToggle({ icon: 'destruction', name: 'Damage blink', desc: "[Hyprland] [Epilepsy warning!]\nShow screen damage flashes", option: "debug:damage_blink" }),
                     ]
                 }),
             ]
