@@ -2,7 +2,7 @@
 # Online script for install dots-hyprland.
 
 me="-->online-setup<--"
-remote_repo=end-4/dots-hyprland
+remote_repo=Krayon0/dotfiles
 set -e
 function try { "$@" || sleep 0; }
 function x() {
