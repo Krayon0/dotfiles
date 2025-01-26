@@ -4,18 +4,8 @@
 </div>
 
 <div align="center">
-    <h2>• Arch Install •</h2>
+    <h2>• Use EndeavourOS •</h2>
 </div>
-
-- Mirror Region (Estonia)
-- Drive Formatting (ext4)
-- Profile (Minimal)
-- Audio (PipeWire)
-- Kernel (Linux)
-- Additional Packages (curl)
-- Network (NetworkManager)
-- Timezone (Europe/Tallinn)
-- Optional Repositories (multilib)
 
 <div align="center">
     <h2>• Rice Install •</h2>
