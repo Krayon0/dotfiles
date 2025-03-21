@@ -31,7 +31,7 @@ let configOptions = {
 		layerSmoke: false,
 		layerSmokeStrength: 0.2,
 		barRoundCorners: 1, // 0: No, 1: Yes
-		fakeScreenRounding: 2, // 0: None | 1: Always | 2: When not fullscreen
+		fakeScreenRounding: 0, // 0: None | 1: Always | 2: When not fullscreen
 	},
 	apps: {
 		bluetooth: "blueberry",
