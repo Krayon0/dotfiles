@@ -31,7 +31,7 @@ let configOptions = {
 		layerSmoke: false,
 		layerSmokeStrength: 0.2,
 		barRoundCorners: 1, // 0: No, 1: Yes
-		fakeScreenRounding: 0, // 0: None | 1: Always | 2: When not fullscreen
+		fakeScreenRounding: 2, // 0: None | 1: Always | 2: When not fullscreen
 	},
 	apps: {
 		bluetooth: "blueberry",
@@ -119,6 +119,9 @@ let configOptions = {
 		quickToggles: {
 			order: ["wifi", "bluetooth", "nightlight", "gamemode", "idleinhibitor", "cloudflarewarp"],
 		},
+		calendar: {
+			expandByDefault: true,
+		},
 	},
 	search: {
 		enableFeatures: {
@@ -141,6 +144,7 @@ let configOptions = {
 		dateFormatLong: "%A, %d/%m", // On bar
 		dateInterval: 5000,
 		dateFormat: "%d/%m", // On notif time
+		calendarDateFormat: "%d %B %Y",
 	},
 	weather: {
 		city: "",
