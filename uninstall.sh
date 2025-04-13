@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 cd "$(dirname "$0")"
 source ./scriptdata/environment-variables
 source ./scriptdata/functions

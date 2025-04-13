@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if sway is running
 if ! pgrep -x sway > /dev/null; then

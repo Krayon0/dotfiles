@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 cd "$(dirname "$0")"
 export base="$(pwd)"
 source ./scriptdata/environment-variables
