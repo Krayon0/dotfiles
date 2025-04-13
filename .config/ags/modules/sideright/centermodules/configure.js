@@ -2,33 +2,12 @@ const { GLib } = imports.gi;
 import Hyprland from 'resource:///com/github/Aylur/ags/service/hyprland.js';
 import Widget from 'resource:///com/github/Aylur/ags/widget.js';
 import * as Utils from 'resource:///com/github/Aylur/ags/utils.js';
-const { Box, Button, Icon, Label, Scrollable, Slider, Stack } = Widget;
+const { Box, Button, Icon, Label, Scrollable, Slider, Stack, Overlay } = Widget;
 const { execAsync, exec } = Utils;
 import { MaterialIcon } from '../../.commonwidgets/materialicon.js';
 import { setupCursorHover } from '../../.widgetutils/cursorhover.js';
-import { ConfigGap, ConfigSpinButton, ConfigToggle } from '../../.commonwidgets/configwidgets.js';
-
-const HyprlandToggle = ({ icon, name, desc = null, option, enableValue = 1, disableValue = 0, extraOnChange = () => { } }) => ConfigToggle({
-    icon: icon,
-    name: name,
-    desc: desc,
-    initValue: JSON.parse(exec(`hyprctl getoption -j ${option}`))["int"] != 0,
-    onChange: (self, newValue) => {
-        execAsync(['hyprctl', 'keyword', option, `${newValue ? enableValue : disableValue}`]).catch(print);
-        extraOnChange(self, newValue);
-    }
-});
-
-const HyprlandSpinButton = ({ icon, name, desc = null, option, ...rest }) => ConfigSpinButton({
-    icon: icon,
-    name: name,
-    desc: desc,
-    initValue: Number(JSON.parse(exec(`hyprctl getoption -j ${option}`))["int"]),
-    onChange: (self, newValue) => {
-        execAsync(['hyprctl', 'keyword', option, `${newValue}`]).catch(print);
-    },
-    ...rest,
-});
+import { ConfigGap, ConfigToggle } from '../../.commonwidgets/configwidgets.js';
+import { AgsSpinButton, HyprlandSpinButton, HyprlandToggle } from '../../.commonwidgets/configwidgets_apps.js';
 
 const Subcategory = (children) => Box({
     className: 'margin-left-20',
@@ -117,14 +96,13 @@ export default (props) => {
             className: 'txt txt-italic txt-subtext margin-5',
             label: getString('Not all changes are saved'),
         })]
-    })
+    });
     return Box({
         ...props,
         className: 'spacing-v-5',
         vertical: true,
         children: [
             mainContent,
-            footNote,
         ]
     });
 }
