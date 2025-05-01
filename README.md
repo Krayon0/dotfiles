@@ -1,6 +1,6 @@
-archinstall - desktop hyprland
-audio - pipewire
-use networkmanager - nmcli
+archinstall - desktop hyprland<br>
+audio - pipewire<br>
+use networkmanager - nmcli<br>
 
 [yay install](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
 ```
