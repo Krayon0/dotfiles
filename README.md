@@ -19,7 +19,7 @@ makepkg -si
 install font for powerlevel10k - `yay -S ttf-meslo-nerd-font-powerlevel10k`
 <br>
 <br>
-[install powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual)
+[install powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh)
 <br>
 `exec zsh`
 <br>
