@@ -1,7 +1,10 @@
-archinstall - desktop hyprland<br>
-audio - pipewire<br>
-use networkmanager - nmcli<br>
-
+archinstall - desktop hyprland
+<br>
+audio - pipewire
+<br>
+use networkmanager - nmcli
+<br>
+<br>
 [yay install](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
 ```
 sudo pacman -S --needed git base-devel
@@ -24,9 +27,24 @@ install font for powerlevel10k - `yay -S ttf-meslo-nerd-font-powerlevel10k`
 `exec zsh`
 <br>
 <br>
+[install uwsm](https://wiki.hyprland.org/Useful-Utilities/Systemd-start/)
+<br>
 Autostart Hyprland
+<br>
+Add into `~/.zprofile`
 ```
 if uwsm check may-start; then
   exec uwsm start hyprland-uwsm.desktop
 fi
+```
+<br>
+<br>
+Add config
+```
+cd ~/.config
+git init
+git branch main
+git remote add origin git@github.com:Krayon0/dotfiles.git
+git checkout main
+git pull
 ```
