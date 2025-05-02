@@ -14,7 +14,7 @@ makepkg -si
 ```
 Install packages
 ```
-yay -S nano thunar zsh uwsm ttf-meslo-nerd-font-powerlevel10k
+yay -S nano nautilus rofi-wayland zsh uwsm ttf-meslo-nerd-font-powerlevel10k
 ```
 [zsh install](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 <br>
