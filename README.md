@@ -9,3 +9,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
+zsh install<br>
+`sudo pacman -S zsh`<br>
+`chsh -s /usr/bin/zsh`
