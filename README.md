@@ -9,7 +9,6 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 ```
-
 [zsh install](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 <br>
 `sudo pacman -S zsh`<br>
@@ -23,3 +22,11 @@ install font for powerlevel10k - `yay -S ttf-meslo-nerd-font-powerlevel10k`
 [install powerlevel10k](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#manual)
 <br>
 `exec zsh`
+<br>
+<br>
+Autostart Hyprland
+```
+if uwsm check may-start; then
+  exec uwsm start hyprland-uwsm.desktop
+fi
+```
