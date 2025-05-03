@@ -31,20 +31,11 @@ yay -S nano nautilus rofi-wayland zsh uwsm ttf-meslo-nerd-font-powerlevel10k
 <br>
 [install uwsm](https://wiki.hyprland.org/Useful-Utilities/Systemd-start/)
 <br>
-Autostart Hyprland
-<br>
-Add into `~/.zprofile`
+Add dotfiles
 ```
-if uwsm check may-start; then
-  exec uwsm start hyprland-uwsm.desktop
-fi
-```
-Add config
-```
-cd ~/.config
+cd ~
 git init
-git branch main
+git branch -m main
 git remote add origin git@github.com:Krayon0/dotfiles.git
-git checkout main
 git pull
 ```
