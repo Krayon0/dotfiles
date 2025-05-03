@@ -29,6 +29,11 @@ yay -S nano nautilus fuzzel zsh uwsm ttf-meslo-nerd-font-powerlevel10k
 `exec zsh`
 <br>
 <br>
+[install dbus-broker](https://github.com/bus1/dbus-broker/wiki)
+```
+systemctl enable dbus-broker.service
+systemctl --global enable dbus-broker.service
+```
 [install uwsm](https://wiki.hyprland.org/Useful-Utilities/Systemd-start/)
 <br>
 Add dotfiles
