@@ -1,0 +1,38 @@
+* {
+  font-family: "SpaceMono Nerd Font";
+  font-size: 12px;
+  border: none;
+  border-radius: 0;
+  padding: 0 6px;
+  margin: 0;
+  min-height: 0;
+}
+
+window#waybar {
+  background: #1f2430;
+  color: #cccac2;
+}
+
+#workspaces button.focused {
+  color: #f28779;
+}
+
+#workspaces button.urgent {
+  color: #ffd173;
+}
+
+#workspaces button {
+  color: #cccac2;
+}
+
+#tray, #tray * {
+  background: #333c50;
+}
+
+#battery.warning {
+  color: #ffd173;
+}
+
+#battery.critical {
+  color: red;
+}
