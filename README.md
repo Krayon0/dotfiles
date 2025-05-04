@@ -44,3 +44,6 @@ git branch -m main
 git remote add origin git@github.com:Krayon0/dotfiles.git
 git pull
 ```
+Bugs
+<br>
+If apps take long to open then enable `systemd-homed` & `systemd-resolved`
