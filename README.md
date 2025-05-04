@@ -14,7 +14,7 @@ makepkg -si
 ```
 Install packages
 ```
-yay -S nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse ttf-meslo-nerd-font-powerlevel10k
+yay -S nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber ttf-meslo-nerd-font-powerlevel10k
 ```
 [zsh install](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 <br>
