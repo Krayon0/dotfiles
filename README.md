@@ -48,6 +48,10 @@ Waybar
 ```
 systemctl --user enable --now waybar.service
 ```
+GNOME Keyring<br>
+[PAM](https://wiki.archlinux.org/title/GNOME/Keyring#PAM_step)<br>
+[User pass](https://wiki.archlinux.org/title/GNOME/Keyring#Automatically_change_keyring_password_with_user_password)<br>
+<br>
 Bugs
 <br>
 If apps take long to open then enable `systemd-homed` & `systemd-resolved`
