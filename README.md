@@ -36,9 +36,8 @@ systemctl --global enable dbus-broker.service
 ```
 [install uwsm](https://wiki.hyprland.org/Useful-Utilities/Systemd-start/)
 <br>
+<br>
 Systemd services
-<br>
-<br>
 If apps take long to open then enable `systemd-homed` & `systemd-resolved`
 ```
 systemctl enable systemd-homed --now
