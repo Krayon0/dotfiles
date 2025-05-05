@@ -26,6 +26,7 @@ window#waybar {
 
 #tray, #tray * {
   background: #333c50;
+  color: #FFFFFF
 }
 
 #battery.warning {

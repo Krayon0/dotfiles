@@ -9,6 +9,9 @@
     "modules-left": [
         "hyprland/workspaces"
     ],
+    "modules-center": [
+	"tray"
+    ],
     "modules-right": [
         "wireplumber",
         "network",
@@ -117,5 +120,8 @@
 	"format": "VOL {volume}%",
 	"format-muted": "VOL MUTED",
 	"on-click": "pavucontrol"
+    },
+    "tray": {
+	
     }
 }
