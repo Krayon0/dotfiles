@@ -38,7 +38,6 @@ systemctl --global enable dbus-broker.service
 <br>
 <br>
 Systemd services
-If apps take long to open then enable `systemd-homed` & `systemd-resolved`
 ```
 systemctl enable systemd-homed --now
 systemctl enable systemd-resolved --now
