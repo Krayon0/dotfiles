@@ -12,7 +12,7 @@ window#waybar {
   color: #cccac2;
 }
 
-#workspaces button.focused {
+#workspaces button.active {
   color: #f28779;
 }
 
