@@ -58,4 +58,4 @@ GNOME Keyring<br>
 [PAM](https://wiki.archlinux.org/title/GNOME/Keyring#PAM_step)<br>
 [User pass](https://wiki.archlinux.org/title/GNOME/Keyring#Automatically_change_keyring_password_with_user_password)<br>
 <br>
-## [NVM Install](https://github.com/nvm-sh/nvm)
+## [NVM Install](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
