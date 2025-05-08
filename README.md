@@ -14,7 +14,7 @@ makepkg -si
 ```
 Install packages
 ```
-yay -S npm eslint_d unzip ripgrep fd wl-clipboard typescript nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber brightnessctl polkit gnome-keyring libsecret ttf-meslo-nerd-font-powerlevel10k noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono
+yay -S nodejs npm eslint_d unzip ripgrep fd wl-clipboard typescript nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber brightnessctl polkit gnome-keyring libsecret ttf-meslo-nerd-font-powerlevel10k noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono
 ```
 [zsh install](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 <br>
@@ -58,7 +58,7 @@ GNOME Keyring<br>
 [PAM](https://wiki.archlinux.org/title/GNOME/Keyring#PAM_step)<br>
 [User pass](https://wiki.archlinux.org/title/GNOME/Keyring#Automatically_change_keyring_password_with_user_password)<br>
 <br>
-## [NVM Install](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)<br>
+## [FNM Install](https://github.com/Schniz/fnm?tab=readme-ov-file#using-a-script-macoslinux)<br>
 For NodeJS Provider
 ```
 npm i -g neovim @fsouza/prettierd
