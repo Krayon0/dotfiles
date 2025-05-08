@@ -63,7 +63,7 @@ GNOME Keyring<br>
 Ensure these params are being used for fnm (.zshrc) 
 --use-on-cd --version-file-strategy=recursive --resolve-engines
 ```
-For NodeJS Provider
+For NodeJS Provider (MUST DO THIS FOR ALL USED NODEJS VERSIONS)
 ```
 npm i -g neovim
 ```
