@@ -65,5 +65,5 @@ Ensure these params are being used for fnm (.zshrc)
 ```
 For NodeJS Provider
 ```
-npm i -g neovim @fsouza/prettierd
+npm i -g neovim
 ```
