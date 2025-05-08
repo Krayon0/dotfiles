@@ -60,7 +60,8 @@ GNOME Keyring<br>
 <br>
 ## [FNM Install](https://github.com/Schniz/fnm?tab=readme-ov-file#using-a-script-macoslinux)
 ```
-eval "$(fnm env --use-on-cd --version-file-strategy=recursive --resolve-engines)"
+Ensure these params are being used for fnm (.zshrc) 
+--use-on-cd --version-file-strategy=recursive --resolve-engines
 ```
 For NodeJS Provider
 ```
