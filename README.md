@@ -58,7 +58,10 @@ GNOME Keyring<br>
 [PAM](https://wiki.archlinux.org/title/GNOME/Keyring#PAM_step)<br>
 [User pass](https://wiki.archlinux.org/title/GNOME/Keyring#Automatically_change_keyring_password_with_user_password)<br>
 <br>
-## [FNM Install](https://github.com/Schniz/fnm?tab=readme-ov-file#using-a-script-macoslinux)<br>
+## [FNM Install](https://github.com/Schniz/fnm?tab=readme-ov-file#using-a-script-macoslinux)
+```
+eval "$(fnm env --use-on-cd --version-file-strategy=recursive --resolve-engines)"
+```
 For NodeJS Provider
 ```
 npm i -g neovim @fsouza/prettierd
