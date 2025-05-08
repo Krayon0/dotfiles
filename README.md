@@ -14,7 +14,7 @@ makepkg -si
 ```
 Install packages
 ```
-yay -S nodejs npm eslint_d unzip ripgrep fd wl-clipboard typescript nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber brightnessctl polkit gnome-keyring libsecret ttf-meslo-nerd-font-powerlevel10k noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono
+yay -S nodejs npm eslint_d prettier unzip ripgrep fd wl-clipboard typescript nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber brightnessctl polkit gnome-keyring libsecret ttf-meslo-nerd-font-powerlevel10k noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono
 ```
 [zsh install](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 <br>
@@ -67,3 +67,4 @@ For NodeJS Provider (MUST DO THIS FOR ALL USED NODEJS VERSIONS)
 ```
 npm i -g neovim
 ```
+Remove NEOVIM & VIM from app launcher (SET noDisplay=true for .desktop files)
