@@ -1,0 +1,15 @@
+[commit]
+	gpgsign = true
+[tag]
+	forceSignAnnotated = true
+	gpgsign = true
+[gpg]
+	format = ssh
+[init]
+	defaultBranch = main
+[user]
+	name = Krayon
+	email = root@krayon.cc
+	signingkey = ~/.ssh/personal
+[includeIf "gitdir/i:~/Projects/Work/"]
+	path = ~/.gitconfig-work
