@@ -2,9 +2,12 @@ archinstall - desktop hyprland
 <br>
 audio - pipewire
 <br>
-use networkmanager - nmcli
-<br>
-<br>
+DONT use network manager
+```
+/etc/iwd/main.conf
+[General]
+EnableNetworkConfiguration=true
+```
 [yay install](https://github.com/Jguer/yay?tab=readme-ov-file#installation)
 ```
 sudo pacman -S --needed git base-devel
