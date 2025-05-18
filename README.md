@@ -17,7 +17,7 @@ makepkg -si
 ```
 Install packages
 ```
-yay -S rustup nodejs npm eslint_d prettier prettierd unzip ripgrep fd wl-clipboard typescript nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber brightnessctl polkit gnome-keyring libsecret ttf-meslo-nerd-font-powerlevel10k noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono
+yay -S rustup nodejs npm unzip ripgrep fd wl-clipboard typescript nano nautilus fuzzel zsh uwsm dbus-broker waybar pavucontrol pipewire-pulse wireplumber brightnessctl polkit gnome-keyring libsecret ttf-meslo-nerd-font-powerlevel10k noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-jetbrains-mono
 ```
 [zsh install](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 <br>
@@ -65,6 +65,10 @@ GNOME Keyring<br>
 ```
 Ensure these params are being used for fnm (.zshrc) 
 --use-on-cd --version-file-strategy=recursive --resolve-engines
+```
+NPM Packages (Install for the fnm use system profile)
+```
+npm i -g eslint_d prettierd jsonlint markdownlint
 ```
 For NodeJS Provider (MUST DO THIS FOR ALL USED NODEJS VERSIONS)
 ```
