@@ -4,6 +4,12 @@ audio - pipewire
 <br>
 DONT use network manager
 ```
+DISABLE THIS TO PREVENT HANGUP AT BOOT (for like docker service but maybe for smth else as well)
+
+sudo systemctl disable systemd-networkd-wait-online.service
+sudo systemctl mask systemd-networkd-wait-online.service
+```
+```
 /etc/iwd/main.conf
 [General]
 EnableNetworkConfiguration=true
