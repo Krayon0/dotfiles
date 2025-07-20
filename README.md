@@ -81,3 +81,8 @@ For NodeJS Provider (MUST DO THIS FOR ALL USED NODEJS VERSIONS)
 npm i -g neovim
 ```
 Remove NEOVIM & VIM from app launcher (SET noDisplay=true for .desktop files)
+
+Docker permission issues
+```
+sudo usermod -aG docker $USER
+```
