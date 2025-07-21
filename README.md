@@ -6,6 +6,7 @@ DONT use network manager
 ```
 BLUETOOTH SETUP
 https://wiki.archlinux.org/title/Bluetooth
+install blueman for gui - doesn't depend on KDE or GNOME
 ```
 ```
 RUN THIS TO PREVENT HANGUP AT BOOT (for like docker service but maybe for smth else as well)
